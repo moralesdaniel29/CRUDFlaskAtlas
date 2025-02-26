@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+    .fondo{
+        background-color: black;
+    }
+    .color{
+        color: white;
+    }
+    .card_body {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        margin: 10px;
+        
+    }
+    .boton {
+        display: flex;
+        width: 20%;
+        height: 20%;
+        font-size: 20px;
+        padding: 10px;
+        background-color: aqua;
+        justify-content: center;
+        align-items: center;
+        text-decoration: none;
+    }
+    a:hover{
+        padding: 15px;
+        background-color: red;
+    }
+</style>
+
+<body class="fondo">
+    <div class="container">
+        <h1 class="text-center mt-5 mb-5 color">INDEX</h1>
+    </div>
+    <div class="container">
+
+        <div class="card">
+            <div class="card-header">
+                <h5 class="text-center">Menu de opciones</h5>
+            </div>
+            <div class="card_body">
+                <a href="productos" class="boton">Productos</a>
+                <a href="clientes" class="boton">Clientes</a>
+                <a href="proveedores" class="boton">Proveedores</a>
+            </div>
+
+        </div>
+
+</body>
+
+</html>
